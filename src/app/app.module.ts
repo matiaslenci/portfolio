@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.com
     HomePageComponent,
     NavBarComponent,
     NotFoundPageComponent,
+    HeaderComponent,
 
   ],
   imports: [
