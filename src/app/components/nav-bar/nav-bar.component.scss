@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    flex-direction:row ;
+    justify-content: flex-start;
+  
+}
+
+.ul--navbar{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2.5rem;
+    align-content:center ;
+    padding-top: 2rem;
+}
+
+
+
+
+ a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffff;
+}
