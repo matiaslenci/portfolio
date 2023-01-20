@@ -7,6 +7,9 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.component';
 import { HeaderComponent } from './components/header/header.component';
+import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
+import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
+
 
 @NgModule({
   declarations: [
@@ -15,6 +18,8 @@ import { HeaderComponent } from './components/header/header.component';
     NavBarComponent,
     NotFoundPageComponent,
     HeaderComponent,
+    SobreMiComponent,
+    TecnologiasComponent,
 
   ],
   imports: [
