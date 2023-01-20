@@ -8,36 +8,81 @@
   }
 }
 
+.container--texto {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.texto--tecnologia {
+  font-size: 22px;
+  font-weight: 300;
+  color: #ffff;
+  text-align: center;
+}
+
+
+
 .tecnologia {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 100px;
+  width: 100px;
   border-radius: 100%;
   padding: 24px;
-
- 
 }
 
+.container--texto:hover .texto--tecnologia {
+  animation: sh0 0.5s ease-in-out both;
+}
+
+@keyframes sh0 {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: rotate(7deg) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate(-7deg) translate3d(0, 0, 0);
+  }
+
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+
+
+
+
 .angular {
-    background-color: rgba(198, 5, 43, 0.21);
-  }
+  background-color: rgba(198, 5, 43, 0.21);
+}
 
-  .js {
-    background-color: rgba(238, 216, 28, 0.21);
-  }
+.js {
+  background-color: rgba(238, 216, 28, 0.21);
+}
 
-  .ts {
-    background-color: rgba(42, 105, 240, 0.21);
-  }
+.ts {
+  background-color: rgba(42, 105, 240, 0.21);
+}
 
-  .css {
-    background-color: rgba(42, 105, 240, 0.21);
-  }
+.css {
+  background-color: rgba(42, 105, 240, 0.21);
+}
 
-  .html {
-    background-color: rgba(239, 101, 37, 0.21);
-  }
+.html {
+  background-color: rgba(239, 101, 37, 0.21);
+}
 
-  .git {
-    background-color: rgba(239, 101, 37, 0.21);
-  }
+.git {
+  background-color: rgba(239, 101, 37, 0.21);
+}

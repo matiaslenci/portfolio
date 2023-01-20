@@ -9,6 +9,7 @@ import { NotFoundPageComponent } from './pages/not-found-page/not-found-page.com
 import { HeaderComponent } from './components/header/header.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { TecnologiasComponent } from './components/tecnologias/tecnologias.compo
     HeaderComponent,
     SobreMiComponent,
     TecnologiasComponent,
+    ProyectosComponent,
 
   ],
   imports: [
