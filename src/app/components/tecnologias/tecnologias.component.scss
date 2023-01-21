@@ -19,6 +19,7 @@
   font-weight: 300;
   color: #ffff;
   text-align: center;
+  cursor: default;
 }
 
 
@@ -35,6 +36,11 @@
 
 .container--texto:hover .texto--tecnologia {
   animation: sh0 0.5s ease-in-out both;
+}
+
+.container--texto:hover img{
+  transition: transform 0.4s;
+    transform: scale(1.2);
 }
 
 @keyframes sh0 {
