@@ -1,17 +1,26 @@
 .container--tecnologias {
-  padding: 65px 0px 0px;
+  padding: 40px 0px 0px;
   display: flex;
   justify-content: space-between;
 
   img {
     height: 50px;
   }
+  
+
 }
+
+#angular--img{
+  height:75px;
+
+}
+
 
 .container--texto {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  cursor: pointer;
 }
 
 .texto--tecnologia {
@@ -23,7 +32,6 @@
 }
 
 
-
 .tecnologia {
   display: flex;
   align-items: center;
@@ -33,15 +41,19 @@
   border-radius: 100%;
   padding: 24px;
 }
+//Animacion imagenes
+.container--texto:hover img{
+  transition: transform 0.4s;
+  transform: scale(1.2);
+}
 
-.container--texto:hover .texto--tecnologia {
+
+//Animación movimiento letras
+
+.container--texto:hover .certificado {
   animation: sh0 0.5s ease-in-out both;
 }
 
-.container--texto:hover img{
-  transition: transform 0.4s;
-    transform: scale(1.2);
-}
 
 @keyframes sh0 {
   0% {
@@ -65,9 +77,7 @@
   }
 }
 
-
-
-
+//div de colores
 
 .angular {
   background-color: rgba(198, 5, 43, 0.21);
@@ -91,4 +101,61 @@
 
 .git {
   background-color: rgba(239, 101, 37, 0.21);
+}
+
+//Certificaciones
+.certificado {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background: none;
+}
+
+.certificado {
+  --primary-color: #111827;
+  --hovered-color: #ffff;
+  position: relative;
+  display: flex;
+  font-weight: 600;
+  font-size: 20px;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.certificado p {
+  margin: 0;
+  position: relative;
+  font-size: 18px;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: var(--primary-color)
+}
+
+.certificado::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  left: 0;
+  bottom: -7px;
+  background: var(--hovered-color);
+  height: 2px;
+  transition: 0.3s ease-out;
+}
+
+.certificado p::before {
+  position: absolute;
+/*   box-sizing: border-box; */
+  content: "Certificado";
+  width: 0%;
+  inset: 0;
+  color: var(--hovered-color);
+  overflow: hidden;
+  transition: 0.3s ease-out;
+}
+
+.container--texto:hover::after .certificado{
+  width: 100%;
+}
+
+.container--texto:hover p::before {
+  width: 100%;
 }
