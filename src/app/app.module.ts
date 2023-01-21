@@ -10,6 +10,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { ContactoComponent } from './components/contacto/contacto.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     SobreMiComponent,
     TecnologiasComponent,
     ProyectosComponent,
+    ContactoComponent,
 
   ],
   imports: [

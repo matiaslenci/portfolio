@@ -1,7 +1,7 @@
 .container--proyectos {
   display: flex;
   flex-direction: column;
-  padding-bottom: 12rem;
+ // padding-bottom: 12rem;
 }
 
 .divider {
@@ -125,10 +125,10 @@
   border-radius: 10px;
   color: #ffff;
   font-size: 18px;
-  font-family: inherit;
-  z-index: 0;
-  overflow: hidden;
-  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12);
+
+
 }
 
 .btn:hover {
