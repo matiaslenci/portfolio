@@ -18,17 +18,18 @@
 .card--container {
   display: flex;
   flex-direction: row;
-  margin-top: 24px;
+  margin-top: 32px;
   box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.1);
 }
 
+
 .card--texto {
-  background-color: #1a2331;
+  background-color: #243145;
   width: 50%;
   height: 270px;
   border-radius: 0px 10px 10px 0px;
+  
 }
-/* Proyecto criptomendas */
 
 .card--img {
   border-radius: 10px 0px 0px 10px;
@@ -61,7 +62,7 @@
   flex-direction: row;
   justify-content: left;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .tecnologia {
@@ -75,6 +76,7 @@
 }
 
 .angular {
+  cursor: pointer;
   background-color: rgba(198, 5, 43, 0.21);
 }
 
@@ -87,21 +89,31 @@
 }
 
 .ts {
+  cursor: pointer;
   background-color: rgba(42, 105, 240, 0.21);
 }
 
+.material{
+  cursor: pointer;
+  background-color: rgba(238, 216, 28, 0.21);
+}
+
+.material--img{
+  width: 25px;
+  height: 25px;
+}
 .botones--proyectos {
   display: flex;
   flex-direction: row;
-  padding-top: 1rem;
   gap: 1rem;
+  justify-content: flex-end;
 }
 
 .btn {
   font-weight: 400;
   position: relative;
   margin-top: 1rem;
-  padding: 0.8em 1em;
+  padding: 1rem 22px;
   outline: none;
   text-decoration: none;
   display: flex;
@@ -109,7 +121,7 @@
   align-items: center;
   cursor: pointer;
   border: none;
-  background-color: #1a2331;
+  background-color: #243145;
   border-radius: 10px;
   color: #ffff;
   font-size: 18px;
@@ -121,4 +133,64 @@
 
 .btn:hover {
   text-decoration: underline;
+  background-color: #1a2331;
+}
+
+.icon {
+  width: 24px;
+  margin-left: 0.5rem;
+}
+
+/* Card reverse */
+.card--container__reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 32px;
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.1);
+}
+
+.card--texto__reverse {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #243145;
+  width: 50%;
+  height: 270px;
+  border-radius: 10px 0px 0px 10px;
+}
+
+
+.card--img__reverse {
+  border-radius: 0px 10px 10px 0px;
+  min-width: 50%;
+  min-height: 270px;
+  background-image: url("../../../assets/proactiva.png");
+  background-position: initial;
+  background-size: cover;
+  position: relative;
+}
+
+.js {
+  cursor: pointer;
+  background-color: rgba(238, 216, 28, 0.21);
+}
+
+.js--img {
+  width: 25px;
+}
+
+.bt{
+  cursor: pointer;
+  background-color: rgba(140, 11, 252, 0.21);
+}
+
+.bt--img{
+  width: 35px;
+}
+
+.botones--proyectos__reverse{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 1rem;
 }
