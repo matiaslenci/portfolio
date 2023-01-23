@@ -1,0 +1,17 @@
+.container--footer{
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    justify-content: center;
+    align-self: center;
+}
+.divider--footer{
+    border-bottom:0.5px solid rgb(31, 41, 55 )
+}
+
+.texto--footer{
+    font-size: 12px;
+    font-weight: 100;
+    color: #ffff;
+    text-align: center;
+}

@@ -11,6 +11,7 @@ import { SobreMiComponent } from './components/sobre-mi/sobre-mi.component';
 import { TecnologiasComponent } from './components/tecnologias/tecnologias.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
     TecnologiasComponent,
     ProyectosComponent,
     ContactoComponent,
+    FooterComponent,
 
   ],
   imports: [

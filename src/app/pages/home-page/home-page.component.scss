@@ -1,9 +1,19 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    margin: 0px 300px  0px 300px;
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 300px 0px 300px;
 }
 
-.main{
-    padding-top: 50px;
+.main {
+  padding-top: 50px;
+}
+
+@media (max-width: 820px) {
+  .container {
+    margin: 0px 16px 0px 16px;
+  }
+
+  .main{
+    padding-top: 0px;
+  }
 }

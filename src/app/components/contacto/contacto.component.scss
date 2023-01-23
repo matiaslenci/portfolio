@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   padding-top: 15rem;
-  padding-bottom: 12rem;
+  padding-bottom: 8rem;
+  gap: 2rem;
 }
 
 .divider {
@@ -26,10 +27,10 @@
 
 .botones--contacto {
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding: 3rem 0px;
-  gap: 2rem;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem 0rem 0rem 0rem;
+  gap: 5rem;
 }
 
 .btn-contacto {
@@ -46,7 +47,7 @@
   align-items: center;
   gap: 1rem;
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2), 0px 1px 18px rgba(0, 0, 0, 0.12);
-  
+
   img {
     width: 42px;
   }
@@ -58,4 +59,15 @@
 
 .btn-contacto:hover p {
   text-decoration: underline;
+}
+@media (max-width: 820px) {
+  .container--contacto {
+    padding-top: 5rem;
+  }
+
+  .botones--contacto{
+  justify-content: space-between;
+  gap: 0rem;
+  }
+
 }
