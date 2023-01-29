@@ -2,9 +2,12 @@
   <div class="container--header">
     <div class="container--texto">
       <h1 class="nombre">Matias Lenci</h1>
-      <h2 class="rol" >Desarrollador Frontend</h2>
+      <h2 class="rol">Desarrollador Frontend</h2>
       <p class="descripcion">
-        Soy apasionado por el aprendizaje de nuevas tecnologías y considero que éstas son fundamentales en mi vida. Por eso, estoy en constante búsqueda de proyectos desafiantes e innovadores que me permitan crecer profesionalmente.
+        Soy apasionado por el aprendizaje de nuevas tecnologías y considero que
+        éstas son fundamentales en mi vida. Por eso, estoy en constante búsqueda
+        de proyectos desafiantes e innovadores que me permitan crecer
+        profesionalmente.
       </p>
     </div>
     <div class="container--img">
@@ -16,17 +19,10 @@
     </div>
   </div>
   <div class="botones--header">
-    <a
-      href="https://www.linkedin.com/in/matias-lenci-228828186/"
-      target="_blank"
-    >
-      <button class="btn" id="btn--ln">Perfil de Linkedin</button>
-    </a>
-    <a
-      target="_blank"
-      href="https://drive.google.com/file/d/1oGvTmbScF3PGeH5aGZA5dXxwaM6fZl6X/view?usp=sharing"
-    >
-      <button class="btn" id="btn--cv">Descargar CV</button>
-    </a>
+    <button class="btn" id="btn--ln" (click)="linkIn()">
+      Perfil de Linkedin
+    </button>
+
+    <button class="btn" id="btn--cv" (click)="linkCv()">Descargar CV</button>
   </div>
 </header>
