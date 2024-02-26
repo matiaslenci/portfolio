@@ -1,0 +1,191 @@
+{
+  "basics": {
+    "name": "Matias Lenci",
+    "label": "Full Stack Developer con más de 2 años de experiencia",
+    "image": "/me.webp",
+    "email": "matiaslenci@gmail.com",
+    "phone": "+54 9 3424463561",
+    "url": "https://midu.dev",
+    "summary": "+2 años de experiencia como Desarrollador Web. Vivo en Santa Fe, Argentina. Soy apasionado por el aprendizaje de nuevas tecnologías y lo considero como constitutivo en mi vida. Por ese motivo, estoy en busca de nuevos proyectos desafiantes e innovadores que favorezcan mi crecimiento profesional.",
+    "location": {
+      "address": "",
+      "postalCode": "3016",
+      "city": "Santo Tome",
+      "countryCode": "AR",
+      "region": "Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "matiaslenci",
+        "url": "https://www.linkedin.com/in/matias-lenci-228828186/"
+      },
+
+      {
+        "network": "GitHub",
+        "username": "matiaslenci",
+        "url": "https://github.com/matiaslenci"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Ministerio de Justicia de Santa Fe ",
+      "position": "Full stack developer",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "summary": "Desarrollo e implementación de sistemas y arquitecturas escalables y eficientes para optimizar procesos internos. Participe activamente en la modernización y mantenimiento de sistemas tanto en Front como en Back.Mi participación en el trabajo en equipo fue esencial para el éxito de los proyectos. Colaboré estrechamente con equipos, fomentando una comunicación efectiva y promoviendo un ambiente de colaboración.  "
+    },
+    {
+      "name": "Freelancer",
+      "position": "Full stack developer",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2021-06-01",
+      "endDate": "2022-09-01",
+      "summary": "Trabajar en una variedad de proyectos para clientes me ayudo no solo mejoró mis habilidades técnicas, sino que también me desafió a adaptarme a diversas exigencias. Gestionar proyectos de principio a fin me proporcionó una valiosa autonomía y me permitió pulir habilidades de gestión del tiempo y comunicación. La colaboración con clientes de diferentes industrias expandió mi conocimiento tecnológico, mientras que la participación activa en la comunidad de desarrollo web me brindó inspiración y aprendizaje continuo."
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Universidad Siglo 21",
+      "url": "https://21.edu.ar/oferta-academica/licenciatura-en-informatica",
+      "area": "Licenciatura en Informática",
+      "startDate": "2022-01-01",
+      "endDate": null
+    }
+  ],
+ 
+  "certificates": [
+    {
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend"]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Master",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Avanzado",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Avanzado",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado",
+      "keywords": [
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
+    }
+  ],
+
+  "projects": [
+   
+    {
+      "name": "Gestor de subs",
+      "isActive": true,
+      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "highlights": ["Open source", "Angular","Tailwind"],
+     
+      "github": "https://github.com/matiaslenci/gestor-de-subs"
+    },
+    {
+      "name": "Backend Gestor de subs",
+      "isActive": true,
+      "description": "Sistema de autentifación de usuarios",
+      "highlights": ["Auth", "REST API", "Nest js", "PostgreSQL","TypeORM"],
+      "url": "https://pruebastecnicas.com",
+      "github": "https://github.com/midudev/pruebas-tecnicas"
+    },
+    {
+      "name": "Registro de la propiedad",
+      "description": "Sistema interno para la realización de trámites del registro de la propiedad de Santa Fe.",
+      "highlights": ["Notificaciones Push", "PWA", "Angular", "Tailwind","OAuth2"]
+    },
+    {
+      "name": "Tramites digitales",
+      "description": "Digitalización de tramites del registro de la propiedad; Refactorización de antiguo proyecto, actulización a responsive mobile y nuevas tecnologias",
+      "highlights": ["Tailwind", "PWA", "Angular","OAuth2"]
+    },{
+      "name": "Backend FDAdmin",
+      "description": "Sistema para la gestión de los tramites digitales, sistema API REST",
+      "highlights": ["PHP", "Synfony 6", "Doctrine","Mysql"]
+    }
+  ]
+}
