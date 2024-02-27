@@ -160,7 +160,7 @@
     {
       "name": "Gestor de subs",
       "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "description": "Aplicación web en la que usuarios puedan gestionar, almacenar y compartir sus cuentas de plataformas de streaming o subscripciones. Con opciones ya predefenidas o personalizables.",
       "highlights": ["Open source", "Angular","Tailwind"],
      
       "github": "https://github.com/matiaslenci/gestor-de-subs"
@@ -168,7 +168,7 @@
     {
       "name": "Backend Gestor de subs",
       "isActive": true,
-      "description": "Sistema de autentifación de usuarios",
+      "description": "Sistema backend de gestor de subs, con autenticación con JWT y REST API en Nestjs",
       "highlights": ["Auth", "REST API", "Nest js", "PostgreSQL","TypeORM"],
       "url": "https://pruebastecnicas.com",
       "github": "https://github.com/midudev/pruebas-tecnicas"
